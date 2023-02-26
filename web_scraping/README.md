@@ -21,7 +21,7 @@ Unfortunately their website design makes it hard to compare prices between diffe
 
 ### Usage
 ```
-> python -u <BASE-URL> -a <ARTICLE IDs> -g <GROUPS> -o <CSVOUTPUT> -we -uh
+> python scrape_amazon_prices.py -u <BASE-URL> -a <ARTICLE IDs> -g <GROUPS> -o <CSVOUTPUT> -we -uh
 ```
 
 ### Options
@@ -39,7 +39,7 @@ Unfortunately their website design makes it hard to compare prices between diffe
 ### Example
 Get prices for all flavours of cat food in 200g and 100g:
 ```
-> python -u https://www.amazon.de/dp/ -a B08MLZQPR9 B07D4T5NR4 -g "200g" "125g" -o "c:\\users\\dev\\desktop\\output.csv" -we -uh
+> python scrape_amazon_prices.py -u https://www.amazon.de/dp/ -a B08MLZQPR9 B07D4T5NR4 -g "200g" "125g" -o "c:\\users\\dev\\desktop\\output.csv" -we -uh
 ```
 
 Output (CSV content):
